@@ -30,5 +30,7 @@ undefined
 undefined
 > test_2(s)
 'boo!'
+> s
+'boo'
 >
 ```
