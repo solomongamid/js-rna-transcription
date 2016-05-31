@@ -13,3 +13,22 @@ each nucleotide with its complement:
 * `C` -> `G`
 * `T` -> `A`
 * `A` -> `U`
+
+## JS: Understand Function Scope
+
+```javascript
+yvan@x230:~$ nodejs 
+> function test_1(x) { x = x + "!"; }
+undefined
+> var s = "boo"
+undefined
+> test_1(s)
+undefined
+> s
+'boo'
+> function test_2(x) { x = x + "!"; return x; }
+undefined
+> test_2(s)
+'boo!'
+>
+```
