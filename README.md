@@ -26,6 +26,7 @@ undefined
 undefined
 > s
 'boo'
+>
 > function test_2(x) { x = x + "!"; return x; }
 undefined
 > test_2(s)
